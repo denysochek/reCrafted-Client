@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		5A5272402DB1530A004C0A89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A5272262DB15309004C0A89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A52722D2DB15309004C0A89;
+			remoteInfo = "reCrafted Client";
+		};
+		5A52724A2DB1530A004C0A89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A5272262DB15309004C0A89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A52722D2DB15309004C0A89;
+			remoteInfo = "reCrafted Client";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A52722E2DB15309004C0A89 /* reCrafted Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "reCrafted Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A52723F2DB1530A004C0A89 /* reCrafted ClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "reCrafted ClientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A5272492DB1530A004C0A89 /* reCrafted ClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "reCrafted ClientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5A5272302DB15309004C0A89 /* reCrafted Client */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "reCrafted Client";
+			sourceTree = "<group>";
+		};
+		5A5272422DB1530A004C0A89 /* reCrafted ClientTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "reCrafted ClientTests";
+			sourceTree = "<group>";
+		};
+		5A52724C2DB1530A004C0A89 /* reCrafted ClientUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "reCrafted ClientUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A52722B2DB15309004C0A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A52723C2DB1530A004C0A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A5272462DB1530A004C0A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A5272252DB15309004C0A89 = {
+			isa = PBXGroup;
+			children = (
+				5A5272302DB15309004C0A89 /* reCrafted Client */,
+				5A5272422DB1530A004C0A89 /* reCrafted ClientTests */,
+				5A52724C2DB1530A004C0A89 /* reCrafted ClientUITests */,
+				5A52722F2DB15309004C0A89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A52722F2DB15309004C0A89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A52722E2DB15309004C0A89 /* reCrafted Client.app */,
+				5A52723F2DB1530A004C0A89 /* reCrafted ClientTests.xctest */,
+				5A5272492DB1530A004C0A89 /* reCrafted ClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A52722D2DB15309004C0A89 /* reCrafted Client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A5272532DB1530A004C0A89 /* Build configuration list for PBXNativeTarget "reCrafted Client" */;
+			buildPhases = (
+				5A52722A2DB15309004C0A89 /* Sources */,
+				5A52722B2DB15309004C0A89 /* Frameworks */,
+				5A52722C2DB15309004C0A89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5A5272302DB15309004C0A89 /* reCrafted Client */,
+			);
+			name = "reCrafted Client";
+			packageProductDependencies = (
+			);
+			productName = "reCrafted Client";
+			productReference = 5A52722E2DB15309004C0A89 /* reCrafted Client.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A52723E2DB1530A004C0A89 /* reCrafted ClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A5272562DB1530A004C0A89 /* Build configuration list for PBXNativeTarget "reCrafted ClientTests" */;
+			buildPhases = (
+				5A52723B2DB1530A004C0A89 /* Sources */,
+				5A52723C2DB1530A004C0A89 /* Frameworks */,
+				5A52723D2DB1530A004C0A89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A5272412DB1530A004C0A89 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5A5272422DB1530A004C0A89 /* reCrafted ClientTests */,
+			);
+			name = "reCrafted ClientTests";
+			packageProductDependencies = (
+			);
+			productName = "reCrafted ClientTests";
+			productReference = 5A52723F2DB1530A004C0A89 /* reCrafted ClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A5272482DB1530A004C0A89 /* reCrafted ClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A5272592DB1530A004C0A89 /* Build configuration list for PBXNativeTarget "reCrafted ClientUITests" */;
+			buildPhases = (
+				5A5272452DB1530A004C0A89 /* Sources */,
+				5A5272462DB1530A004C0A89 /* Frameworks */,
+				5A5272472DB1530A004C0A89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A52724B2DB1530A004C0A89 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5A52724C2DB1530A004C0A89 /* reCrafted ClientUITests */,
+			);
+			name = "reCrafted ClientUITests";
+			packageProductDependencies = (
+			);
+			productName = "reCrafted ClientUITests";
+			productReference = 5A5272492DB1530A004C0A89 /* reCrafted ClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A5272262DB15309004C0A89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					5A52722D2DB15309004C0A89 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					5A52723E2DB1530A004C0A89 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 5A52722D2DB15309004C0A89;
+					};
+					5A5272482DB1530A004C0A89 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 5A52722D2DB15309004C0A89;
+					};
+				};
+			};
+			buildConfigurationList = 5A5272292DB15309004C0A89 /* Build configuration list for PBXProject "reCrafted Client" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A5272252DB15309004C0A89;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5A52722F2DB15309004C0A89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A52722D2DB15309004C0A89 /* reCrafted Client */,
+				5A52723E2DB1530A004C0A89 /* reCrafted ClientTests */,
+				5A5272482DB1530A004C0A89 /* reCrafted ClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A52722C2DB15309004C0A89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A52723D2DB1530A004C0A89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A5272472DB1530A004C0A89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A52722A2DB15309004C0A89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A52723B2DB1530A004C0A89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A5272452DB1530A004C0A89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A5272412DB1530A004C0A89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A52722D2DB15309004C0A89 /* reCrafted Client */;
+			targetProxy = 5A5272402DB1530A004C0A89 /* PBXContainerItemProxy */;
+		};
+		5A52724B2DB1530A004C0A89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A52722D2DB15309004C0A89 /* reCrafted Client */;
+			targetProxy = 5A52724A2DB1530A004C0A89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5A5272512DB1530A004C0A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A5272522DB1530A004C0A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5A5272542DB1530A004C0A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "reCrafted Client/reCrafted_Client.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"reCrafted Client/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "reCrafted.reCrafted-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5A5272552DB1530A004C0A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "reCrafted Client/reCrafted_Client.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"reCrafted Client/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "reCrafted.reCrafted-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5A5272572DB1530A004C0A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "reCrafted.reCrafted-ClientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reCrafted Client.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/reCrafted Client";
+			};
+			name = Debug;
+		};
+		5A5272582DB1530A004C0A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "reCrafted.reCrafted-ClientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reCrafted Client.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/reCrafted Client";
+			};
+			name = Release;
+		};
+		5A52725A2DB1530A004C0A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "reCrafted.reCrafted-ClientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "reCrafted Client";
+			};
+			name = Debug;
+		};
+		5A52725B2DB1530A004C0A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "reCrafted.reCrafted-ClientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "reCrafted Client";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A5272292DB15309004C0A89 /* Build configuration list for PBXProject "reCrafted Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A5272512DB1530A004C0A89 /* Debug */,
+				5A5272522DB1530A004C0A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A5272532DB1530A004C0A89 /* Build configuration list for PBXNativeTarget "reCrafted Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A5272542DB1530A004C0A89 /* Debug */,
+				5A5272552DB1530A004C0A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A5272562DB1530A004C0A89 /* Build configuration list for PBXNativeTarget "reCrafted ClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A5272572DB1530A004C0A89 /* Debug */,
+				5A5272582DB1530A004C0A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A5272592DB1530A004C0A89 /* Build configuration list for PBXNativeTarget "reCrafted ClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A52725A2DB1530A004C0A89 /* Debug */,
+				5A52725B2DB1530A004C0A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A5272262DB15309004C0A89 /* Project object */;
+}
